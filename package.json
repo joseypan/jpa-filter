@@ -1,0 +1,17 @@
+{
+  "main": "lib/guide-jpa-filter.cjs.js",
+  "module": "lib/guid-jpa-filter.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.6"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^9.0.2",
+    "rollup": "^3.2.5",
+    "vitest": "^0.25.1"
+  }
+}
